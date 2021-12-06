@@ -31,12 +31,8 @@ p {
 
 /* set up the body */
 body {
-  line-height: 1.5;
   min-height: 100vh;
-  font-family: var(--ff-sans-normal);
-  font-size: var(--fs-400);
-  background-color: hsl(var(--clr-dark));
-  color: hsl(var(--clr-white));
+  font-family: "Montserrat", sans-serif;
 
   display: grid;
   grid-template-rows: min-content 1fr;
