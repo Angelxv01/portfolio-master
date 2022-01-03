@@ -1,4 +1,4 @@
-export default {
+const theme = {
   font: {
     weight: {
       NORMAL: "400",
@@ -29,3 +29,5 @@ export default {
     PRIMARY: "214 84% 56%",
   },
 };
+
+export default theme;
