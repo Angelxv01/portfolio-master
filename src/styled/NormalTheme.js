@@ -22,7 +22,6 @@ const theme = {
   },
   color: {
     WHITE: "0 0% 100%",
-    WHITE1: "0 0% 100%",
     GRAY1: "0 0% 20%",
     GRAY2: "0 0% 31%",
     GRAY3: "0 0% 51%",

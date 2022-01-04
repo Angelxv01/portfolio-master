@@ -45,6 +45,8 @@ export default createGlobalStyle`/* Box sizing */
     picture {
         max-width: 100%;
         display: block;
+        object-fit: cover;
+        object-position: center;
     }
 
     /* make form elements easier to work with */
