@@ -16,22 +16,23 @@ export const Footer = styled.footer`
 
 const UnstyledCard = styled.article`
   background-color: #e0e0e0;
-  padding: 1em;
+  display: grid;
 
-  ${Cover} {
+  & > ${Cover} {
+    grid-area: cover;
     display: none;
   }
 
-  ${Header} {
-    background-color: red;
+  & > ${Header} {
+    grid-area: header;
   }
 
-  ${Body} {
-    background-color: blue;
+  & > ${Body} {
+    grid-area: body;
   }
 
-  ${Footer} {
-    background-color: green;
+  & > ${Footer} {
+    grid-area: footer;
   }
 
   ${({ variation }) => variation}
