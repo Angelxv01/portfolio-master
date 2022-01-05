@@ -26,10 +26,6 @@ function App() {
           Self-motivated developer, who is willing to learn and create
           outstanding UI applications.
         </p>
-        <p>
-          Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-          feugiat malesuada molestie.
-        </p>
       </Body>
     </Card>
   );

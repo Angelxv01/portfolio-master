@@ -21,7 +21,7 @@ export const otherCard = css`
   max-width: 20em;
   margin: 1em auto;
   padding: 1.5em;
-  gap: 2em;
+  gap: 1em;
   border-radius: 0.5em;
   grid-template-rows: repeat(3, auto);
   grid-template-areas: "cover" "header" "body";
@@ -34,4 +34,5 @@ export const cssCover = css`
   aspect-ratio: 1;
   object-position: center;
   object-fit: cover;
+  border-radius: 0.5em;
 `;
