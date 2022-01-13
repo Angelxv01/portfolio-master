@@ -11,7 +11,7 @@ export const someCard = css`
   padding: 2em;
   gap: 1em;
   border-radius: 0.5em;
-  background-color: #ededed;
+  background-color: white;
   & > ${Cover} {
     display: block;
   }
@@ -27,7 +27,7 @@ export const projectCard = css`
   padding: 1em;
   gap: 1em;
   border-radius: 0.5em;
-  background-color: #ededed;
+  background-color: white;
   & > ${Cover} {
     display: block;
   }
@@ -39,8 +39,9 @@ export const otherCard = css`
   padding: 1.5em;
   gap: 1em;
   border-radius: 0.5em;
+  background-color: white;
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "cover" "header" "body";
+  grid-template-areas: "cover" "header" "body" "footer";
   & > ${Cover} {
     display: block;
   }

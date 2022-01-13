@@ -33,6 +33,7 @@ export default createGlobalStyle`/* Box sizing */
 
     /* set up the body */
     body {
+        background-color: #ededed;
         min-height: 100vh;
         font-family: "Montserrat", sans-serif;
 

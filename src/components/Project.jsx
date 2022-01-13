@@ -1,12 +1,12 @@
 import { css } from "styled-components";
 import Card, { Header, Body, Footer, Cover } from "../styled/unstyled/Card";
-import { projectCard, thumbnail } from "../styled/variants/Card";
+import { otherCard, thumbnail } from "../styled/variants/Card";
 import { Flow } from "../styled/variants/Layout";
 import Button from "../styled/unstyled/Button";
 
 export default function Project({ project }) {
   return (
-    <Card variation={projectCard}>
+    <Card variation={otherCard}>
       <Cover
         variation={thumbnail}
         src={`${process.env.PUBLIC_URL}/thumbnails/${project.cover}`}
