@@ -17,6 +17,22 @@ export const someCard = css`
   }
 `;
 
+export const projectCard = css`
+  grid-auto-flow: row;
+  grid-template-columns: max-content auto;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "cover header" "cover body" "cover footer";
+  width: 60%;
+  margin: 1em auto;
+  padding: 1em;
+  gap: 1em;
+  border-radius: 0.5em;
+  background-color: #ededed;
+  & > ${Cover} {
+    display: block;
+  }
+`;
+
 export const otherCard = css`
   max-width: 20em;
   margin: 1em auto;
