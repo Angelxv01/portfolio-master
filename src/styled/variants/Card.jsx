@@ -5,8 +5,8 @@ export const someCard = css`
   grid-auto-flow: row;
   grid-template-columns: max-content auto;
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: "cover header" "cover body";
-  min-width: 60%;
+  grid-template-areas: "cover header" "cover body" "cover footer";
+  width: 60%;
   margin: 1em auto;
   padding: 2em;
   gap: 1em;
@@ -35,4 +35,8 @@ export const cssCover = css`
   object-position: center;
   object-fit: cover;
   border-radius: 0.5em;
+`;
+
+export const thumbnail = css`
+  width: 24em;
 `;

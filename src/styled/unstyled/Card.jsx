@@ -4,7 +4,6 @@ export const Header = styled.header`
   ${({ variation }) => variation}
 `;
 export const Cover = styled.img`
-  // background-image: url(${({ url }) => url});
   ${({ variation }) => variation}
 `;
 export const Body = styled.section`

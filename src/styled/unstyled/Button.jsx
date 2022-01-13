@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const UnstyledButton = styled.button`
-  background-color: yellow;
   font-size: 1rem;
   border: 0;
   outline: 0;
